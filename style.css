@@ -69,10 +69,64 @@ body{
     font-weight: 700;
     
 }
-.experience-area{
-    padding-left: 0px;
+.clear{
+    clear: both;
 }
-
+.exp{
+    background: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 550px;
+    position: relative;
+}
+.exp h2{
+    font-size: 45px;
+}
 .first{
     float: left;
+    background-color: white;
+    margin-left: 80px;
+    padding: 25px;
+    
+    text-align: left;
+    height: 300px;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+    box-shadow: 5px 7px 40px gray;
+    position: absolute;
+
+}
+.first h1{
+    font-size: 37px;
+}
+.first h3{
+    color: orange;
+}
+.first p{
+    opacity: 0.7;
+}
+.second{
+    float: right;
+    background-color:white;
+    margin-right: 80px;
+    padding: 25px;
+    text-align: left;
+    height: 300px;
+    border-left: 7px solid blue;
+    
+    box-shadow: 5px 7px 40px gray;
+}
+
+.second h1{
+    font-size: 37px;
+}
+.second h3{
+    color: orange;
+}
+.second p{
+    opacity: 0.7;
+}
+.footer{
+    text-align: center;
 }
