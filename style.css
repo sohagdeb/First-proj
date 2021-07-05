@@ -72,61 +72,40 @@ body{
 .clear{
     clear: both;
 }
+.experience-area h1{
+    font-size: 40px;
+}
 .exp{
-    background: url(images/exp-bg.png);
+    display: flex;
+    background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    background-position: left;
-    height: 550px;
-    position: relative;
+    background-position:left ;
 }
-.exp h2{
-    font-size: 45px;
+.orange{
+    color: orange;
 }
-.first{
-    float: left;
-    background-color: white;
-    margin-left: 80px;
-    padding: 25px;
-    
-    text-align: left;
-    height: 300px;
+.half-exp{
+    padding: 20px;
+    width: 50%;
+    margin: 20px 80px;
+    box-shadow: 5px 5px 20px black;
     border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightsalmon, tomato);
-    border-image-slice: 1;
-    box-shadow: 5px 7px 40px gray;
-    position: absolute;
-
-}
-.first h1{
-    font-size: 37px;
-}
-.first h3{
-    color: orange;
-}
-.first p{
-    opacity: 0.7;
-}
-.second{
-    float: right;
-    background-color:white;
-    margin-right: 80px;
-    padding: 25px;
-    text-align: left;
-    height: 300px;
-    border-left: 7px solid blue;
+    border-radius: 5px;
     
-    box-shadow: 5px 7px 40px gray;
+    
+}
+#border-color1{
+    border-image: linear-gradient(orange, tomato) ;
+    border-image-slice: 1;
+    
+}
+#border-color2{
+    border-image: linear-gradient(blue , cyan) ;
+    border-image-slice: 1;
+    
 }
 
-.second h1{
-    font-size: 37px;
-}
-.second h3{
-    color: orange;
-}
-.second p{
-    opacity: 0.7;
-}
+
 .footer{
     text-align: center;
 }
